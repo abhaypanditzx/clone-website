@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.navbar nav .img img {
+    height: 90px;
+    transform: rotate(75deg);
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 14vh;
+    background-color: rgba(0, 0, 0, 0.342);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-transform: capitalize;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.navbar {
+    /* margin-top: 10px; */
+    background-image: url('images/sandip-karangiya-86N42yzJuLw-unsplash.jpg');
+    width: 100vw;
+    height: 130vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+}
+
+.mantras {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 20%;
+}
+
+.mantras p {
+    color: rgba(255, 255, 0, 0.667);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.img1 {
+    margin-top: 3em;
+    background: url('images/krishna.png');
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-color: rgba(255, 174, 0, 0.598);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    box-shadow: 0 0 10px 10px black;
+}
+
+.texts {
+    height: fit-content;
+    width: 50vw;
+    transform: translateX(10%);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.dropdown {
+   display: inline-block;
+    position: relative;
+}
+
+.list a , .list2 a , .list3 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 15px;
+    width: 15vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.587);
+    padding-top: 10px;
+    
+
+}
+.list , .list2 , .list3{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    width: 11vw;
+}
+
+/* HOVERS */
+
+.dropdown:hover .list, .dropdown2:hover .list2 , .dropdown3:hover .list3 
+{
+    display:block;
+}
+
+.dropdown:hover .dropbtn, .dropdown2:hover .dropbtn , .dropdown3:hover .dropbtn , .dropbtn:hover{
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+.list a:hover ,.list2 a:hover , .list3 a:hover{
+    background-color: rgba(255, 0, 0, 0.593);
+}
+.list3 a{
+transform: translateX(-30%);
+}
+
+/* BUTTON */
+.dropbtn , .dropbtn a{
+    height: 13vh;
+width: 10vw;
+font-weight: 600;
+text-decoration: none;
+color:white;
+background-color: transparent;
+border: none;
+text-transform: capitalize;
+}
+
+
+/* SECTION1 */
+.secone{
+    padding-top: 140vh;
+}
+#what{
+    width: 100vw;
+    height: 60vh;
+}
+/* IMAGE CONTAINER */
+.images{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+}
+/* IMAGES */
+.img2{
+    background: url('images/iskcon-temple.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.img3{
+    background: url('images/what-is-bhakti-yoga.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.img4{
+    background: url('images/iskcon-times1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.img5{
+    background: url('images/president-of-india-iskcon.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    
+}
+/* CONTENT UNDER IMAGES */
+.box1{
+    height: 0px;
+    width: 100%;
+    background-color:#319cb0;
+    transition: 0.5s;
+    overflow: hidden;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+
+}
+.box2{
+    height: 0px;
+    width: 100%;
+    background-color: #319cb0;
+    transition: 0.5s;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box3{
+    height: 0px;
+    width: 100%;
+    background-color: #319cb0;
+    transition: 0.5s;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box4{
+    height: 0px;
+    width: 100%;
+    background-color: #319cb0;
+    transition: 0.5s;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* IMAGE HOVER */
+.img2:hover .box1{
+    height: 100px;
+}
+.img3:hover .box2{
+    height: 100px;
+}.img4:hover .box3{
+    height: 100px;
+}.img5:hover .box4{
+    height: 100px;
+}
+
+
+/* SECTION-2 BIOGRAPHY */
+.sectwo{
+    padding-top: 0em;
+}
+.bio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+hr{display: none;}
+.bio p {
+    font-weight: 600;
+
+}
+.bio span{
+margin-top: 100px;
+font-weight: 600;
+color: rgb(69, 67, 67);
+font-family: 'Oswald', sans-serif;
+height: fit-content;
+border: 1px solid gray;
+position: relative;
+right: 40em;
+top: 2em;
+}
+
+    /* ------------------CONTAINER_3 -------------*/
+.shlokha{
+    height: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.shlokha h1{
+    padding: 30px 0; 
+}
+.h42{
+    margin-top: 20px;
+}
+
+#hide{background-color: rgb(0, 94, 255);
+    color: #fff;
+    width: 7rem;
+    height: 2rem;
+    text-transform: capitalize;
+    border: 1px solid gray;}
+
+    /* --------------------CONTAINER-4 ---------------*/
+
+    .section-four{
+        height: 100%;
+        background-color: #e7e7e7;
+    }
+    .main-con{
+        height: 100%;
+        width: 80vw;
+        box-shadow:  5px 5px 30px #80808090;
+        background-color: #fff;
+        margin: 40px auto;
+        border-radius: 7px;
+        margin:100px auto;
+        transform: translateY(2em);
+    }
+.content-four{
+    display: flex;
+}
+.image img{
+   
+    height: 30em;
+    width: 20em;
+    padding: 10px;
+}
+#mark{
+    background-color: yellow;
+    text-decoration: underline;
+}
+#paragraph-four{
+    font-style: italic;
+    padding: 20px 0;
+    font-size: 22px;
+}
+.h43{padding: 20px 0;}
+
+
+.topic{color:#232323;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+.cont{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5c5b5b;
+    padding: 10px 20px;
+}
+.cont2{
+    width: 70vw;
+    margin: 5px 23px;
+}
+
+                /* ---------------FOOTER STYLING-------------- */
+
+    .footer{
+        background-color: #1a1a1a;
+        }
+        .footer .footer-up{display: flex;}
+        .footer .footer-up .col-1 h1{color: gainsboro;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+        .footer .footer-up .col-2 h1{
+            font-family: 'IBM Plex Sans', sans-serif;
+            text-transform: capitalize;
+
+        }
+        .footer .footer-up .col-1 a{
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            /* font-family: 'Times New Roman', Times, serif; */
+            font-family: 'IBM Plex Sans', sans-serif;
+            text-transform: capitalize;
+            padding: 10px 0;
+        }
+        .footer .footer-up .col-1 span{color: gray;}
+        .footer .footer-up .col-1{padding:50px 100px;}
+        .footer .footer-up .col-2{padding:50px 100px;}
+        .footer .footer-up .col-2 h1{color: gainsboro;}
+        .footer .footer-up .col-2 a{
+            color: #808080; 
+            padding: 15px;
+        }
+        .face{
+        border: 1px solid #808080;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+                    /*--------------ICONS & HOVERS---------------*/
+        .icons{padding: 30px;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;}
+       #facebook{
+        height:100%;
+        transition: 1s;
+        position: relative;
+    }
+#facebook:hover{
+        background-color: blue;
+        color: gainsboro;
+        }
+.twitter{
+            border: 1px solid #808080;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+#twitter{height: 100%;
+                 transition: 1s;}
+#twitter:hover{
+            background-color: rgb(0, 145, 255); 
+            color:gainsboro;
+        }
+.youtube{
+            border: 1px solid #808080;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+       
+        #youtube{
+        height: 100%;
+        transition: 1s;
+        position: relative;}
+        #youtube:hover{
+            background-color: red;
+            color: gainsboro;
+        }
+
+        .footer-down{
+            background-color: #222222;
+            height: 5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #808080;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+     #owner-name{padding-left: 3px;
+    color: #808080;
+    text-transform: capitalize;}

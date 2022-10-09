@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 70vh;
+    width: 96%;
+    border: 10px double black;
+    margin: 10px;
+    background-image: url('../images/bg-img-about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0em;
+}
+.image img{
+    height: 100px;
+    padding-right: 100px;
+    margin-left: 20%;
+}
+.image{
+    height: fit-content;
+    width: 10em;
+}
+.aboutme{padding: 20px;}
+.myself{
+    padding: 50px;
+    margin: 10px 14%;
+    font-weight: 400;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0 100px;
+    background-color: rgba(255, 255, 255, 0.419);
+    width: 50vw;
+    border-radius: 7px;
+}
+.username{
+    margin-right: 20%;
+}
+#about-me{text-decoration: underline;
+text-transform: capitalize;}
+.abhay{text-decoration:underline;
+color: rgb(56, 56, 56);}
+#paragraph{
+    font-size: 20px;
+    text-shadow: 1px 1px gray;
+    text-transform: capitalize;
+}
